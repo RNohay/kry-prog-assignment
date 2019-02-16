@@ -17,7 +17,8 @@ The console will show on which port the system is deployed. Wait for a message l
 > Deploying in port 8080
 
 Example:
-![Port](./assets/deploy-port.png)
+
+[Port](/assets/deploy-port.png)
 
 ## REST calls
 The tool can be operated via these REST endpoints:
@@ -38,10 +39,13 @@ Only the HTTP POST endpoint needs to have request body. The POST endpoint needs 
 ### Examples
 
 ###### HTTP POST
-![POST](./assets/post.png)
+
+![POST](/assets/post.png)
 
 ###### HTTP GET
-![POST](./assets/get.png)
+
+![GET](/assets/get.png)
 
 ###### HTTP DELETE
-![POST](./assets/delete.png)
+
+![DELETE](/assets/delete.png)
