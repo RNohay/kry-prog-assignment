@@ -29,7 +29,7 @@ public class BackgroundPoller extends AbstractVerticle {
           addServer("8.8.4.4"))
     );
 
-    vertx.setPeriodic(20000, id -> {
+    vertx.setPeriodic(60000, id -> {
       Map<Integer, Service> serviceMap = persistenceAdapter.getAllServices();
       for(Map.Entry<Integer, Service> entry : serviceMap.entrySet()) {
         HttpClient httpClient = vertx.createHttpClient( new HttpClientOptions().setMaxRedirects(7));
