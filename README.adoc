@@ -40,7 +40,7 @@ Only the HTTP POST endpoint needs to have request body. The POST endpoint needs 
 
 ###### HTTP POST
 
-![POST](/assets/post.png)
+![POST](assets/post.png)
 
 ###### HTTP GET
 
