@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# kry-prog-assignment
-Service Monitoring Tool
-=======
 # Service Monitoring Tool
 
 This is a small status monitoring tool that checks the status of different services.
@@ -60,5 +56,3 @@ Background polling happens every one minute.
 
 ## Support
 For questions/clarifications, please contact me at rexwynnohay@gmail.com
-
->>>>>>> develop
